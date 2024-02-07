@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "farmuncertainty"
+version = "0.1.0"
+description = "Model of farmer uptake of subsidies for agri-environmental schemes under future uncertainty"
+authors = ["Mattia Mancini <m.c.mancini@exeter.ac.uk>, Amy Binner <a.r.binner@exeter.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
