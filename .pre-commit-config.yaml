@@ -3,12 +3,6 @@
 default_language_version:
     python: python3
 
-python:
-  - id: python
-    name: python
-    entry: python3
-    language_version: ">='3.9'"
-
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
