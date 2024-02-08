@@ -28,8 +28,8 @@ class Farmer:
 
     """
 
-    def __init__(self):
-        pass
+    def __init__(self, farmer_id):
+        self.farmer_id = farmer_id
 
     def __str__(self):
         pass
